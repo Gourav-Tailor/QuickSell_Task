@@ -1,0 +1,106 @@
+html{background: rgb(240,240,240);}
+body{user-select: none;
+     position: absolute;
+     top: calc(50% - 130px);
+     left: calc(50% - 257px);
+     width: 257px;
+     height: 130px;
+     background: white;
+     box-shadow:0 0 2px 1px rgb(200,200,200);
+  }
+.rectangle{
+  position: absolute;
+  left: 38px;
+  top: 37px;
+  width: 180px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgb(251, 232, 232);
+  border: 1px solid rgb(178, 66, 66);
+}
+
+#rect1{
+  position: absolute;
+  left: 38px;
+  top: 37px;
+  width: 60px;
+  height: 56px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(178, 66, 66);
+  cursor: pointer;
+  text-align: center;
+  line-height: 56px;
+  font-style: Avenir Black;
+  font-weight: 900;
+  font-size: 21px;
+  color: rgb(178, 66, 66);
+}
+#rect2{
+  position: absolute;
+  left: 158px;
+  top: 37px;
+  width: 60px;
+  height: 56px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(178, 66, 66);
+  border: 1px solid rgb(178, 66, 66);
+  cursor: pointer;
+  text-align: center;
+  line-height: 56px;
+  font-style: Avenir Black;
+  font-weight: 900;
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+}
+
+#numb{
+  position: absolute;
+  left: 116px;
+  top: 51px;
+  width: auto;
+  height: 29px;
+  font-style: Avenir Black;
+  font-weight: 900;
+  font-size: 21px;
+  color: rgb(178, 66, 66);
+  outline: none;
+}
+#saving{
+  position: absolute;
+  left: 67px;
+  top: 10px;
+  width: 113px;
+  height: 16px;
+  line-height: 16px;
+  font-style: Avenir Black,sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+}
+#circle{
+  position: absolute;
+  left: 41px;
+  top: 11px;
+  width: 14px;
+  height: 14px;
+  border-radius: 8px;
+  border: 1px dashed rgb(0,0,0);
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#counting{
+  position: absolute;
+  left: 42px;
+  top: 103px;
+  width: 100px;
+  height: 16px;
+  line-height: 16px;
+  font-style: Avenir Black,sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+}
